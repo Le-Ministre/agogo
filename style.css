@@ -1,0 +1,44 @@
+ body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(17, 188, 131);
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    background-color: rgb(17, 188, 131);
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+} 
+hr{
+    color: black!important;
+    padding: px;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+}
+.compteur{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 300px;
+}
+.texte{
+    color: white;
+}
+
